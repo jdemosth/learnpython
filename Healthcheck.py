@@ -13,10 +13,6 @@ def is_float(text):
         return True
     except ValueError:
         return False
-
-
-
-
 while True:
     sleep_hours = input("please enter the amount of hours you slept last night ")
     if (is_float(sleep_hours)):
@@ -24,21 +20,10 @@ while True:
     else:
         print(" Enter valid sleep hours ")
 
-
-
-
-# num_glasses_water = input(
-#     "please enter the number of glasses of water you have drank today ")
-
 if float(sleep_hours) >= 8:
      print("Great sleep!")
 else:
     print("Try to sleep a bit more ")
-
-# if int(num_glasses_water) >=6:
-#     print("Hydration is good!")
-# else:
-#     print("Drink more water")
 
 
 
